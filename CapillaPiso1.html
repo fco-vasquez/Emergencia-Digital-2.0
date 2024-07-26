@@ -36,11 +36,11 @@
             </div>
             <div class="col" style="background-color: aqua;">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('capilla piso 1 Todo.svg')">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="capilla piso 1 Todo.svg" onchange="onClick(this)">
                     <label class="form-check-label" for="inlineCheckbox1">Todos</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value="option3" onchange="onClick('capilla piso 1 PQS.svg')">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value='capilla piso 1 PQS.svg' onchange="onClick(this)">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
                 </div>
             </div>
@@ -59,29 +59,17 @@
     }
 
 
-    function onClick(svgFileName,datounic) {
-        let floorPlan = document.getElementById("floorPlan");
+    function onClick(checkbox){
         let overlaySvg = document.getElementById("overlaySvg");
 
-        
-        if (svgFileName === 'capilla piso 1 Todo.svg') {
-            if (overlaySvg.style.display === 'block') {
-                onUnClick();
-            } else {
-                overlaySvg.style.display = 'block';
-                overlaySvg.src = "Capilla/" + svgFileName;
-            }
+        if(checkbox.checked){
+            overlaySvg.style.display = 'block';
+            overlaySvg.src = "Capilla" + checkbox.value;
         }
-
-        if (svgFileName === 'capilla piso 1 PQS.svg') {
-            if (overlaySvg.style.display === 'block') {
-                onUnClick();
-            } else {
-                overlaySvg.style.display = 'block';
-                overlaySvg.src = "Capilla/" + svgFileName;
-            }
+        else{
+            onUnClick();
         }
-    }
+    } 
 </script>
 <!--TERMINA FUNCION-->
 </body>

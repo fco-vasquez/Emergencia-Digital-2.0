@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="5"
-   height="1.5"
-   viewBox="0 0 1.3229167 0.39687502"
+   width="1.2417405mm"
+   height="1.2417406mm"
+   viewBox="0 0 1.2417405 1.2417406"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="EXPLOSIVO.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,15 +23,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="67.649247"
-     inkscape:cx="4.870712"
-     inkscape:cy="3.4516275"
+     inkscape:zoom="64"
+     inkscape:cx="-0.8359375"
+     inkscape:cy="1.5390625"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="2.0715061e-06"
+       y="-3.5812953e-08"
+       width="1.2417405"
+       height="1.2417406"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
   <defs
      id="defs1">
     <pattern
@@ -45,10 +54,11 @@
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-237.63567,-38.184553)">
     <g
        id="g1"
-       transform="matrix(0.01890314,0,0,0.01810356,-1.3278959,-2.4462121)">
+       transform="matrix(0.07721135,0,0,0.07596577,230.15585,27.524056)">
       <path
          style="fill:#ffffff;fill-opacity:1"
          d="m 112.76144,156.4185 h 0.26539 v 0.2654 h -0.26539"
@@ -4151,7 +4161,7 @@
          id="path2758" />
       <path
          style="fill:#ffffff;fill-opacity:1"
-         d="m 99.756889,152.17212 0.19905,0.0663 0.06635,0.19905 H 99.7568"
+         d="m 99.756889,152.17212 0.19905,0.0663 0.06635,0.19905 h -0.265429"
          id="path2757" />
       <path
          style="fill:#ffffff;fill-opacity:1"
